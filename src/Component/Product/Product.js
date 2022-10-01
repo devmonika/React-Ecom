@@ -14,7 +14,7 @@ const Product = (props) => {
                 <div className=''>
                 <p><span className='font-bold'>Price:</span> {price}$</p>
                 <p><span className='font-bold'>Brand:</span> {brand}</p>
-                <p> <span className='font-bold'>Description:</span> {description?.slice(0,50)}...</p>
+                
                 </div>
                 <div className="card-actions justify-start">
                     <button onClick={()=>addToCart(props.product)} className="btn btn-outline btn-primary">Add To cart</button>
